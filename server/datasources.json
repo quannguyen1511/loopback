@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "",
+    "port": 0,
+    "url": "postgres://uvqjkyre:AIpXK-HVJAlqXOVBQIACxa3ae1jkVQxl@stampy.db.elephantsql.com:5432/uvqjkyre",
+    "database": "",
+    "password": "",
+    "name": "postgres",
+    "user": "",
+    "connector": "postgresql"
+  },
+  "mlab": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://quan:quan1511@ds125906.mlab.com:25906/test-history",
+    "database": "",
+    "password": "",
+    "name": "mlab",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "mydb": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "mydb",
+    "connector": "mongodb"
+  }
+}

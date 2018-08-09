@@ -1,0 +1,44 @@
+{
+  "name": "parkingLot",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "col": {
+      "type": "number",
+      "required": true
+    },
+    "row": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "number",
+      "required": true
+    },
+    "rentDate": {
+      "type": "date",
+      "required": true
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "carNumber": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
